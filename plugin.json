@@ -4,7 +4,7 @@
     "command" : "node index.js $(pollInterval) $(host) $(port)",
     "postExtract" : "npm install",
     "ignore" : "node_modules",
-    "metrics" : ["SPHINX_TOTAL_CON"],
+    "metrics" : ["SPHINX_CONNECTIONS", "SPHINX_MAXED_OUT", "SPHINX_COMMAND_SEARCH"],
     "paramSchema" : [
         {
             "title" : "host",
