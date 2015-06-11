@@ -1,0 +1,9 @@
+{
+  "name": "boundary-plugin-sphinx",
+  "version": "0.0.1",
+  "description": "Boundary plugin for reading sphinx status",
+  "author": "Anton Frick <frick@traum-ferienwohnungen.de>",
+  "dependencies": {
+    "sphinxapi": "1.1.x"
+  }
+}

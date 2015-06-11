@@ -1,0 +1,20 @@
+{
+    "description" : "Sphinx Status Report Plugin",
+    "icon" : "icon.png",
+    "command" : "node index.js $(pollInterval) $(host) $(port)",
+    "postExtract" : "npm install",
+    "ignore" : "node_modules",
+    "metrics" : ["SPHINX_TOTAL_CON"],
+    "paramSchema" : [
+        {
+            "title" : "host",
+            "description" : "The host/ip sphinx is listening on",
+            "type" : "string"
+        },
+        {
+            "title" : "port",
+            "description" : "The port sphinx is listening on",
+            "type" : "string"
+        }
+    ]
+}
