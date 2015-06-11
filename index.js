@@ -1,9 +1,9 @@
 var SphinxClient = require ("sphinxapi"),
   _os = require('os'),
   _source = _os.hostname(),
-  _interval = parseInt(process.argv[1]) || 1000,
-  _host = process.argv[2] || 'localhost',
-  _port = parseInt(process.argv[3]) || 9312;
+  _interval = parseInt(process.argv[2]) || 1000,
+  _host = process.argv[3] || 'localhost',
+  _port = parseInt(process.argv[4]) || 9312;
 
 var _last;
 var cl = new SphinxClient();
